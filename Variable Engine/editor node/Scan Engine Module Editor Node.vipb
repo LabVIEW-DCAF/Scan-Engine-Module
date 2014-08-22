@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-18 11:55:44" Modified_Date="2014-08-01 11:35:40" Creator="Daniel" Comments="" ID="2064dcd634a8bf71263f38e80f57144e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-18 11:55:44" Modified_Date="2014-08-22 17:48:42" Creator="Daniel" Comments="" ID="bf9c9ec0eaa4f1d991d15b5bc2d11f7a">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_var_tbmedit</Package_File_Name>
-    <Library_Version>1.0.2.15</Library_Version>
+    <Library_Version>1.0.2.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..\package releases\variable engine\editor</Library_Output_Folder>
+    <Library_Output_Folder>..\..\..\releases\modules\variable engine</Library_Output_Folder>
     <Company_Name>National Instrsuments</Company_Name>
     <Library_Summary/>
     <Library_License>BSD 2-clause</Library_License>

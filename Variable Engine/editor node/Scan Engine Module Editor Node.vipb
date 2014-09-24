@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-18 11:55:44" Modified_Date="2014-09-22 17:06:38" Creator="Daniel" Comments="" ID="ea76d09d05afbd345c24b866ff730664">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-18 11:55:44" Modified_Date="2014-09-24 15:05:52" Creator="Daniel" Comments="" ID="67a40eb3c57e4cb10ba436d009f8332b">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_var_tbmedit</Package_File_Name>
-    <Library_Version>1.0.2.16</Library_Version>
+    <Library_Version>1.1.0.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\modules\variable engine</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>Cleaned up, fixed issue #2 and #3 on github. Changed from DVR checkout checkin to lock unlock</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

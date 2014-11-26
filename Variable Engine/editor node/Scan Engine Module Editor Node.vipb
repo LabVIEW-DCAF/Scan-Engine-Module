@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-18 11:55:44" Modified_Date="2014-09-25 11:04:25" Creator="Daniel" Comments="" ID="cedce520fc0cb6ac57aafc48b230d28b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-18 11:55:44" Modified_Date="2014-11-26 13:45:12" Creator="Daniel" Comments="" ID="93c77b5bddf3fc562b875a5c5951cc6c">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_var_tbmedit</Package_File_Name>
-    <Library_Version>1.1.0.18</Library_Version>
+    <Library_Version>2.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\modules\variable engine</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>Cleaned up, fixed issue #2 and #3 on github. Changed from DVR checkout checkin to lock unlock</Release_Notes>
+      <Release_Notes>Update to CEF2.0</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

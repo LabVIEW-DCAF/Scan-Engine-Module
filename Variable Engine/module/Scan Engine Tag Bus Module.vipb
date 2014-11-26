@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2014-08-01 11:35:24" Creator="Daniel" Comments="" ID="c9b3519df89c462616c360ec1fb985c8">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2014-11-26 13:31:43" Creator="Daniel" Comments="" ID="0c3b7a3f458f940a22e89b193fa034d8">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_var_tbm</Package_File_Name>
-    <Library_Version>1.0.4.17</Library_Version>
+    <Library_Version>2.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\package releases\variable engine\module</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_tbm &gt;=1.0.3.43</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_tbm &gt;=2.0.2.4</Additional_External_Dependencies>
       <Package_Conflicts>ni_lib_iov_tbm &gt;=1.0.4.9</Package_Conflicts>
     </Package_Dependencies>
     <Custom_Action_VIs>

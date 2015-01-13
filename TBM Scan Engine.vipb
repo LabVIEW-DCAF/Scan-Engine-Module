@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2015-01-09 18:28:27" Creator="Daniel" Comments="" ID="5028cf6bdcf6dcfce496e8b0cb33d65a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2015-01-13 17:19:00" Creator="Daniel" Comments="" ID="d81263d462158d6abeaa14c4aa9b181f">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbm_vario</Package_File_Name>
-    <Library_Version>2.0.1.4</Library_Version>
+    <Library_Version>2.0.2.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\releases\modules\variable engine</Library_Output_Folder>

@@ -1,4 +1,4 @@
 vi	build tools\BUILD_install dependencies.vi
 vi	build tools\BUILD_uninstall.vi
-vip	TBM Scan Engine.vipb
+vip	source\TBM Scan Engine.vipb
 vi	build tools\BUILD_install upload.vi

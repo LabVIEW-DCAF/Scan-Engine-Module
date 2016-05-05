@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2015-01-14 14:45:44" Creator="Daniel" Comments="" ID="54b81ebd5d90fc6c22fbc8e465f38000">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2016-05-05 10:50:36" Creator="Daniel" Comments="" ID="a0f0baa7ca8d9d2be6ba7c110f1dd96e">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbm_vario</Package_File_Name>
     <Library_Version>2.0.2.4</Library_Version>
@@ -18,6 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>ni_lib_dataeng &gt;=2.0.5.3</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_ui_toolkit &gt;=1.0.0.5</Additional_External_Dependencies>
       <Package_Conflicts>ni_lib_iov_tbm &gt;=1.0.4.9</Package_Conflicts>
       <Package_Conflicts>ni_lib_var_tbm &gt;=1.0.4.15</Package_Conflicts>
       <Package_Conflicts>ni_lib_var_tbmedit &gt;=1.0.2.14</Package_Conflicts>

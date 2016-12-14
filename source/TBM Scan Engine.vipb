@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2016-07-25 23:00:39" Creator="Daniel" Comments="" ID="28e7816337b8e4792667e35627695072">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2016-12-14 12:00:31" Creator="Daniel" Comments="" ID="9830836458b78b0071f88f614c45eca3">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_scan_engine</Package_File_Name>
-    <Library_Version>2.0.2.4</Library_Version>
+    <Library_Version>2.0.2.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\modules\variable engine</Library_Output_Folder>
@@ -113,12 +113,6 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>module/scan eng runtime builder.lvproj</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -129,18 +123,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>module/testing</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>module/Scan Engine.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>editor node/scan engine editor dev.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>TBM Var Eng.lvproj</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>

@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2016-12-14 15:11:31" Creator="Daniel" Comments="" ID="8b06f01d156dec7140fb8373f67508ef">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2016-12-15 18:58:48" Creator="Daniel" Comments="" ID="7927889c3fcf5b243167abc367062e66">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_scan_engine</Package_File_Name>
     <Library_Version>2.1.0.5</Library_Version>
@@ -98,18 +98,6 @@
     <Source_Files>
       <Destination_Overrides>
         <Path>.</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>module/configuration</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>module/execution</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>

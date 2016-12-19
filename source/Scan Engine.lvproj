@@ -20,9 +20,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Scan Engine configuration.lvclass" Type="LVClass" URL="../module/configuration/Scan Engine configuration.lvclass"/>
+		<Item Name="Scan Engine configuration.lvclass" Type="LVClass" URL="../configuration/Scan Engine configuration.lvclass"/>
 		<Item Name="Scan Engine editor node.lvclass" Type="LVClass" URL="../editor node/Scan Engine editor node.lvclass"/>
-		<Item Name="Scan Engine runtime.lvclass" Type="LVClass" URL="../module/execution/Scan Engine runtime.lvclass"/>
+		<Item Name="Scan Engine runtime.lvclass" Type="LVClass" URL="../execution/Scan Engine runtime.lvclass"/>
 		<Item Name="Scan Engine tests.lvlib" Type="Library" URL="../testing/Scan Engine tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

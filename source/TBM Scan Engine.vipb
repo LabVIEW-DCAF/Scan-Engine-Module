@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2016-12-14 12:47:19" Creator="Daniel" Comments="" ID="6e247548a2469588f0a2d1fec60ddb94">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-27 19:51:41" Modified_Date="2016-12-15 18:58:48" Creator="Daniel" Comments="" ID="7927889c3fcf5b243167abc367062e66">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_scan_engine</Package_File_Name>
-    <Library_Version>2.0.2.5</Library_Version>
+    <Library_Version>2.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\modules\variable engine</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_table_api &gt;=1.0.0.47</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_tag_editor &gt;=2.1.3.166</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_table_api &gt;=1.1.0.53</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_tag_editor &gt;=2.2.0.198</Additional_External_Dependencies>
       <Package_Conflicts>ni_lib_iov_tbm &gt;=1.0.4.9</Package_Conflicts>
       <Package_Conflicts>ni_lib_var_tbm &gt;=1.0.4.15</Package_Conflicts>
       <Package_Conflicts>ni_lib_var_tbmedit &gt;=1.0.2.14</Package_Conflicts>
@@ -38,7 +38,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>DCAF 1.1 Release</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -98,18 +98,6 @@
     <Source_Files>
       <Destination_Overrides>
         <Path>.</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>module/configuration</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>module/execution</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>

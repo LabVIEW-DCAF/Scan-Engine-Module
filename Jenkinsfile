@@ -3,8 +3,8 @@
 
 //Modify the below parameters to match the values for this particular repo
 
-def utfPaths = ["Source\\Scan Engine.lvproj"]
-def vipbPaths = ["Source\\TBM Scan Engine.vipb"]
+def utfPaths = ["source\\Scan Engine.lvproj"]
+def vipbPaths = ["source\\TBM Scan Engine.vipb"]
 def lvVersion = "14.0"
 
 //Leave the below line alone.  It pulls in the pipeline definition from the DCAF buildsystem repo so we don't duplicate code in every repo 

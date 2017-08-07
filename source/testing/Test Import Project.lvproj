@@ -42,9 +42,11 @@
 	<Property Name="varPersistentID:{9278C648-3CB8-4E25-9FC6-DAFA3ACC67CC}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Mod1/AI6</Property>
 	<Property Name="varPersistentID:{9B6EAE39-F202-4DFE-8192-1A28EC7C0B1D}" Type="Ref">/RT CompactDAQ Target/cDAQ Vars.lvlib/Boolean_In</Property>
 	<Property Name="varPersistentID:{A108C87C-B597-4CA0-A469-463757F668FD}" Type="Ref">/RT CompactRIO Target/cRIO Vars.lvlib/Double_In</Property>
+	<Property Name="varPersistentID:{A67487BB-7625-4A42-9B38-B6E12807D499}" Type="Ref">/My Computer/Virtual Folder/PC Vars.lvlib/Double_In</Property>
 	<Property Name="varPersistentID:{B1C94235-13EC-43A9-B893-291D495508AA}" Type="Ref">/My Computer/Virtual Folder/PC Vars.lvlib/String_In</Property>
 	<Property Name="varPersistentID:{B95F0ED6-02E6-49AE-AA94-BE37AD59B071}" Type="Ref">/RT CompactRIO Target/cRIO Vars.lvlib/Double_Out</Property>
 	<Property Name="varPersistentID:{BB574353-FFA8-45F0-AE52-019518E15E47}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device2/Outputs-ClearDigInputChangedBit</Property>
+	<Property Name="varPersistentID:{C18CCE59-6269-4259-9846-BB7A378CBBA7}" Type="Ref">/My Computer/Virtual Folder/PC Vars.lvlib/Double_Out</Property>
 	<Property Name="varPersistentID:{C25BB9C9-3FF7-4F63-84A1-65CEBEB71FBC}" Type="Ref">/RT CompactRIO Target/Chassis/Mod2/DIO2</Property>
 	<Property Name="varPersistentID:{CAD284B5-C567-488A-A1AB-6B6E7AD4BA7C}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device2/Outputs-Torque Feed Forward</Property>
 	<Property Name="varPersistentID:{D488E322-BD66-479E-B33F-909B00239538}" Type="Ref">/RT CompactRIO Target/Chassis/Mod2/DIO1</Property>

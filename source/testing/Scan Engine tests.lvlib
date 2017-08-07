@@ -15,33 +15,37 @@
 	</Item>
 	<Item Name="Add Remove Test.lvtest" Type="TestItem" URL="../Add Remove Test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:Add Remove Test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">F81A1C94-D487-95B7-57CD-99FA13AC6D9F</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">74F9967A-24CD-D3DA-515F-D3183F1F6B05</Property>
 	</Item>
 	<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
 	<Item Name="get channels test.lvtest" Type="TestItem" URL="../get channels test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:get channels test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">F484499A-9E8C-6573-A394-E24F516D7E63</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">16E20881-F74D-85D7-7090-B7B9FBCBA9B8</Property>
 	</Item>
 	<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
 	<Item Name="init runtime test.lvtest" Type="TestItem" URL="../init runtime test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:init runtime test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">5114279E-1488-2875-970C-37D9D82324EE</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">6740FC93-5144-CC2D-7322-FE913E7CFEAB</Property>
 	</Item>
 	<Item Name="init runtime test.vi" Type="VI" URL="../init runtime test.vi"/>
 	<Item Name="modify channel test.lvtest" Type="TestItem" URL="../modify channel test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:modify channel test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">17389B30-EFA0-A973-A1A3-1A082054DF6F</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">4934EB7D-BB1D-EE40-EFEE-94D791605B7D</Property>
 	</Item>
 	<Item Name="modify channel test.vi" Type="VI" URL="../modify channel test.vi"/>
 	<Item Name="serialization tests.lvtest" Type="TestItem" URL="../serialization tests.lvtest">
 		<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:serialization tests.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">B372B603-6CC3-8C8D-254F-A5AD1AE86761</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">50B77E37-4567-C394-9CFE-F25744DB24D6</Property>
 	</Item>
 	<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
+	<Item Name="Test Find All Variables.lvtest" Type="TestItem" URL="../Test Find All Variables.lvtest">
+		<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:Test Find All Variables.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">5167627B-6F74-58CE-DF67-2764BFB109C9</Property>
+	</Item>
 	<Item Name="Test Find All Variables.vi" Type="VI" URL="../Test Find All Variables.vi"/>
 	<Item Name="ToTable Test.lvtest" Type="TestItem" URL="../ToTable Test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:ToTable Test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">FB036516-75AC-5E62-7B49-B3D990566002</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">0E388D10-2A51-A515-1793-47601198741E</Property>
 	</Item>
 	<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
 </Library>

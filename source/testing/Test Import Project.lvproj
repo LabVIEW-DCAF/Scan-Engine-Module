@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{010ECA43-CEE1-45FC-A913-9D921C2576A2}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device2/Inputs-Latch 1P</Property>
 	<Property Name="varPersistentID:{071188BF-758C-4668-87F5-7ADBFC5AE5A4}" Type="Ref">/RT CompactRIO Target/Chassis/Mod1/AI0</Property>
 	<Property Name="varPersistentID:{0DD3D2D9-564E-4D44-85E7-1CF94C60BEB3}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Mod1/AI7</Property>
@@ -11,10 +12,12 @@
 	<Property Name="varPersistentID:{1FC59F6E-2BEC-453A-9CB8-7C199A966DC4}" Type="Ref">/My Computer/Virtual Folder/PC Vars.lvlib/String_Out</Property>
 	<Property Name="varPersistentID:{20B158C9-29F8-4799-8B5D-8912B5D03810}" Type="Ref">/RT CompactRIO Target/Chassis/Mod2/DIO0</Property>
 	<Property Name="varPersistentID:{2D8B8272-AB92-485D-ADDE-EF3095465E1F}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device2/Outputs-Interpolation Data Record</Property>
+	<Property Name="varPersistentID:{300067A4-7BDD-48DB-BEE7-113BCA66BACD}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/User-Defined Variables/EUDVBool</Property>
 	<Property Name="varPersistentID:{31363446-A6E5-4E5F-8074-E9C914956944}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device2/Inputs-Second Position Feedback</Property>
 	<Property Name="varPersistentID:{32821B63-0A8F-4823-83A5-0AC2E7785971}" Type="Ref">/RT CompactDAQ Target/cDAQ Vars.lvlib/String_In</Property>
 	<Property Name="varPersistentID:{32DAC416-06A0-4C43-8E09-F6D0A51BAEB5}" Type="Ref">/RT CompactRIO Target/Chassis/Mod2/DIO4</Property>
 	<Property Name="varPersistentID:{36972CA7-8B4E-48BD-8CC8-EDD57DB608E5}" Type="Ref">/RT CompactRIO Target/Chassis/Mod1/AI2</Property>
+	<Property Name="varPersistentID:{37488864-B9A4-4855-919C-FC9ED83EC6DE}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/User-Defined Variables/EUDVInt32</Property>
 	<Property Name="varPersistentID:{3D20EFE7-4935-4CDA-9647-C3F0454EA63E}" Type="Ref">/My Computer/Virtual Folder/PC Vars.lvlib/Boolean_In</Property>
 	<Property Name="varPersistentID:{3E250D51-BFB9-47CD-8E74-3F6AE6C77B29}" Type="Ref">/RT CompactRIO Target/Chassis/Mod1/AI1</Property>
 	<Property Name="varPersistentID:{3F996F1B-ABAD-4E48-A4EC-F186D8773FFC}" Type="Ref">/RT CompactRIO Target/Chassis/Mod2/DIO6</Property>
@@ -720,6 +723,151 @@
 				<Property Name="ECAT.Slave.VendorName" Type="Str">National Instruments</Property>
 				<Property Name="ECAT.Slave.WatchdogDivider" Type="UInt">2498</Property>
 				<Property Name="NI.SortType" Type="Int">1</Property>
+				<Item Name="User-Defined Variables" Type="cRIO IO Variable Container">
+					<Item Name="EUDVBool" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1EF629D1-A4B3-4679-9DE8-4FF30A9DFA02}</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:BufferSize" Type="Str">1</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=EUDVBool/datatype=0/direction=1/index=0</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+					</Item>
+					<Item Name="EUDVInt32" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1043CA61-05BC-4AF1-BB10-06B4FA05EF48}</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:BufferSize" Type="Str">1</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:RSI" Type="Str">True</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=EUDVInt32/datatype=2/direction=0/index=0</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!"1!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+					</Item>
+				</Item>
+				<Item Name="FPGA Target 2" Type="FPGA Target">
+					<Property Name="AutoRun" Type="Bool">true</Property>
+					<Property Name="configString.guid" Type="Str">{1043CA61-05BC-4AF1-BB10-06B4FA05EF48}/name=EUDVInt32/datatype=2/direction=0/index=0{1EF629D1-A4B3-4679-9DE8-4FF30A9DFA02}/name=EUDVBool/datatype=0/direction=1/index=0{4C866E03-3066-4C65-ABFD-F92A66DECC6E}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{80AB1555-156E-455C-9294-44CBB2213D62}resource=/Chassis Temperature;0;ReadMethodType=i16{9A6C774C-68BD-4833-A9D3-56C568AB746F}NumberOfSyncRegistersForReadInProject=Auto;resource=/EtherCAT State;0;ReadMethodType=u8{C87C12B5-E8BC-4491-A147-BED80B49E9C7}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{D8817C52-A3A8-4397-89A3-DB695C412DC0}NumberOfSyncRegistersForReadInProject=Auto;resource=/Output Virtual Point;0;ReadMethodType=bool{D98A1D20-D026-4CD4-82AD-122485D28A36}NumberOfSyncRegistersForReadInProject=Auto;resource=/Input Virtual Point;0;ReadMethodType=bool{EA00247D-0D3E-45C3-A5E2-00F5B75A437F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{F6A66033-FC8B-46C8-8130-6F1C32E58025}resource=/Scan Clock;0;ReadMethodType=boolNI 9144/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSNI_9144FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16EtherCAT StateNumberOfSyncRegistersForReadInProject=Auto;resource=/EtherCAT State;0;ReadMethodType=u8EUDVBool/name=EUDVBool/datatype=0/direction=1/index=0EUDVInt32/name=EUDVInt32/datatype=2/direction=0/index=0FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolInput Virtual PointNumberOfSyncRegistersForReadInProject=Auto;resource=/Input Virtual Point;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]NI 9144/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSNI_9144FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Output Virtual PointNumberOfSyncRegistersForReadInProject=Auto;resource=/Output Virtual Point;0;ReadMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=bool</Property>
+					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">NI 9144/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSNI_9144FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA</Property>
+					<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+					<Property Name="Resource Name" Type="Str"></Property>
+					<Property Name="Target Class" Type="Str">NI 9144</Property>
+					<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
+					<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
+					<Item Name="Chassis I/O" Type="Folder">
+						<Item Name="Chassis Temperature" Type="Elemental IO">
+							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Chassis Temperature</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{80AB1555-156E-455C-9294-44CBB2213D62}</Property>
+						</Item>
+						<Item Name="EtherCAT State" Type="Elemental IO">
+							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/EtherCAT State</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{9A6C774C-68BD-4833-A9D3-56C568AB746F}</Property>
+						</Item>
+						<Item Name="FPGA LED" Type="Elemental IO">
+							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/FPGA LED</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{EA00247D-0D3E-45C3-A5E2-00F5B75A437F}</Property>
+						</Item>
+						<Item Name="Input Virtual Point" Type="Elemental IO">
+							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/Input Virtual Point</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{D98A1D20-D026-4CD4-82AD-122485D28A36}</Property>
+						</Item>
+						<Item Name="Output Virtual Point" Type="Elemental IO">
+							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/Output Virtual Point</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{D8817C52-A3A8-4397-89A3-DB695C412DC0}</Property>
+						</Item>
+						<Item Name="Scan Clock" Type="Elemental IO">
+							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Scan Clock</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{F6A66033-FC8B-46C8-8130-6F1C32E58025}</Property>
+						</Item>
+					</Item>
+					<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
+						<Property Name="FPGA.PersistentID" Type="Str">{C87C12B5-E8BC-4491-A147-BED80B49E9C7}</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">40000000</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">40000000</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">40000000</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">40 MHz Onboard Clock</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">Clk40</Property>
+						<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+						<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+					</Item>
+					<Item Name="Dependencies" Type="Dependencies"/>
+					<Item Name="Build Specifications" Type="Build"/>
+				</Item>
 				<Item Name="Mod1" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 1</Property>
@@ -745,6 +893,7 @@
 					<Property Name="ECAT.Module.VendorID" Type="UInt">505</Property>
 					<Property Name="ECAT.Name" Type="Str">Mod1</Property>
 					<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{4C866E03-3066-4C65-ABFD-F92A66DECC6E}</Property>
 					<Item Name="AI0" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>

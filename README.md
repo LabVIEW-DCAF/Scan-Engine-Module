@@ -12,7 +12,7 @@ The Scan Engine Module can also be used to connect to data published with Share
 
 The Scan Engine module works best if you configured your project to set up your CompactRIO with the C Series modules you will use in your application. Once you have configured your project, open the DCAF Editor and add the Scan Engine Module to your DCAF Engine.
 
-![scanengine.png](https://ni.i.lithium.com/t5/image/serverpage/image-id/207591iB541BDD91492435C/image-size/large?v=1.0&px=999 "scanengine.png")
+![scanengine.png](Documentation/ScanEngineSettings.png)
 
 The *Import from Project* button will prompt you to open your project and will automatically load the IO Variables it can find in your project. The *Generate Tags* button will automatically create tags and map tags to the channels you have created. If you remove a module from your project and *Import from Project* DCAF will not automatically remove the channels created earlier. You must manually remove those channels.
 
@@ -22,7 +22,7 @@ The Discover Channels checkbox will automatically create I/O channels for additi
 
 You can also manually add IO Variables using the *+* button. You can delete channels using the *-* button. Use the gear button to edit a channel. When adding or editing a channel, the screen below will be presented:
 
-![scanconfig.png](https://ni.i.lithium.com/t5/image/serverpage/image-id/207592i3D30C9B5C515054A/image-size/large?v=1.0&px=999 "scanconfig.png")
+![scanconfig.png](Documentation/ConfigureChannel.png)
 
 **Access Type:** Whether the data will be coming into the DCAF module from Scan Engine (Read from HW) or out to Scan Engine from DCAF (Write to HW).
 

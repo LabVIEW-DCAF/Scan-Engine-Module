@@ -19,6 +19,7 @@
 	<Item Name="modify channel test.vi" Type="VI" URL="../modify channel test.vi"/>
 	<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
 	<Item Name="Test Find All Variables.vi" Type="VI" URL="../Test Find All Variables.vi"/>
+	<Item Name="To and From CSV.vi" Type="VI" URL="../To and From CSV.vi"/>
 	<Item Name="To and From String Array.vi" Type="VI" URL="../To and From String Array.vi"/>
 	<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
 </Library>

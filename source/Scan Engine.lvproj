@@ -51,6 +51,14 @@
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:Test Find All Variables.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">7AADF982-0459-8D7D-D24A-20BB630DD168</Property>
 			</Item>
+			<Item Name="To and From CSV.lvtest" Type="TestItem" URL="../testing/To and From CSV.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:To and From CSV.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">D02AEDA4-7B63-CD75-A195-7E57CB87704C</Property>
+			</Item>
+			<Item Name="To and From String Array.lvtest" Type="TestItem" URL="../testing/To and From String Array.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:To and From String Array.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">9C2299DB-2940-375A-232E-E3A5178A41A4</Property>
+			</Item>
 			<Item Name="ToTable Test.lvtest" Type="TestItem" URL="../testing/ToTable Test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:ToTable Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">760EF05D-FBD5-3A39-4BC8-5DD5F1E884E3</Property>

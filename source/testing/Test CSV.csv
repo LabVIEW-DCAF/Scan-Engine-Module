@@ -1,0 +1,4 @@
+ni.var.psp://LocalHost/Test Variables/Double_In,Read from HW,Double,ni.var.psp://LocalHost/Test Variables/Double_In
+ni.var.psp://LocalHost/Test Variables/Double_Out,Write to HW,Double,
+ni.var.psp://LocalHost/Test Variables/Boolean_In,Read from HW,Boolean,ni.var.psp://LocalHost/Test Variables/Boolean_In
+ni.var.psp://LocalHost/Test Variables/Boolean_Out,Write to HW,Boolean,

@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+<Project Type="Project" LVVersion="15008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{0228D1FE-258A-43B8-9FBE-303B1BA895B3}" Type="Ref">/My Computer/Test Variables.lvlib/Double_Out</Property>
 	<Property Name="varPersistentID:{063351FC-FDA5-44F3-9DE3-0150A3F9CFBB}" Type="Ref">/My Computer/Test Variables.lvlib/String_In</Property>
@@ -193,6 +194,7 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="write syslog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Syslog Wrapper - Linux/write syslog.vi"/>
 			</Item>
+			<Item Name="IO_index_map.ctl" Type="VI" URL="../execution/Custom Ctrls/IO_index_map.ctl"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

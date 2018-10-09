@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="14008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{010ECA43-CEE1-45FC-A913-9D921C2576A2}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device2/Inputs-Latch 1P</Property>
@@ -142,6 +142,11 @@
 				<Property Name="AutoRun" Type="Bool">false</Property>
 				<Property Name="configString.guid" Type="Str">{25411218-0AD1-4710-9229-858F9B07B5B0}resource=/Scan Clock;0;ReadMethodType=bool{30AD360E-5D4E-4519-93F8-018A56A3F5A3}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{376E055E-422B-462B-B913-77C7F4DCD023}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{4B03C2A0-0C81-4136-9D8B-93C7CDF56CAF}/name=UDV Boolean/datatype=0/direction=0/index=1{B2E919D7-8AE2-4D8F-ACFF-E4DF441847D1}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{C43DE26A-9B4E-4948-9271-83294D65A02D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{CCE188FD-1093-4D1A-B110-6554AAA5595A}/name=UDV Int32/datatype=2/direction=0/index=0{D016DFCF-C7C1-45C7-BF77-2B092F109400}resource=/Chassis Temperature;0;ReadMethodType=i16{DDB04C48-84AD-42E9-B437-E827E4794E88}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E4614D4F-1D0A-4C1C-862E-FDBD6E86818D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGAMod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUDV Boolean/name=UDV Boolean/datatype=0/direction=0/index=1UDV Int32/name=UDV Int32/datatype=2/direction=0/index=0USER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
+				<Property Name="Item Name" Type="Str">FPGA Target</Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">0</Property>
+				<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml"><CLIPDeclarationSet name="CLIPDeclarationSet">
+
+</CLIPDeclarationSet></Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
@@ -253,7 +258,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="AI1" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -268,7 +273,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="AI2" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -283,7 +288,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="AI3" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -298,7 +303,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
 			</Item>
 			<Item Name="Mod2" Type="RIO C Series Module">
@@ -525,7 +530,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"5!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;1!!!"1!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DIO1" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -540,7 +545,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"5!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;1!!!"1!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DIO2" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -555,7 +560,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"5!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;1!!!"1!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DIO3" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -570,7 +575,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"5!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;1!!!"1!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DIO4" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -585,7 +590,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"5!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;1!!!"1!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DIO5" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -600,7 +605,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"5!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;1!!!"1!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DIO6" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -615,7 +620,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"5!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;1!!!"1!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DIO7" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -630,7 +635,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"5!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;1!!!"1!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 			</Item>
 			<Item Name="User-Defined Variables" Type="cRIO IO Variable Container">
@@ -651,7 +656,7 @@
 					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UDV Boolean/datatype=0/direction=0/index=1</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
 				<Item Name="UDV Int32" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -670,7 +675,7 @@
 					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=UDV Int32/datatype=2/direction=0/index=0</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(Q!!!"5!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(Q!!!"1!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 				</Item>
 			</Item>
 		</Item>
@@ -741,7 +746,7 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=EUDVBool/datatype=0/direction=1/index=0</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
 					<Item Name="EUDVInt32" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -760,13 +765,18 @@
 						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">/name=EUDVInt32/datatype=2/direction=0/index=0</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(Q!!!"5!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(Q!!!"1!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!</Property>
 					</Item>
 				</Item>
 				<Item Name="FPGA Target 2" Type="FPGA Target">
 					<Property Name="AutoRun" Type="Bool">true</Property>
 					<Property Name="configString.guid" Type="Str">{1043CA61-05BC-4AF1-BB10-06B4FA05EF48}/name=EUDVInt32/datatype=2/direction=0/index=0{1EF629D1-A4B3-4679-9DE8-4FF30A9DFA02}/name=EUDVBool/datatype=0/direction=1/index=0{4C866E03-3066-4C65-ABFD-F92A66DECC6E}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{80AB1555-156E-455C-9294-44CBB2213D62}resource=/Chassis Temperature;0;ReadMethodType=i16{9A6C774C-68BD-4833-A9D3-56C568AB746F}NumberOfSyncRegistersForReadInProject=Auto;resource=/EtherCAT State;0;ReadMethodType=u8{C87C12B5-E8BC-4491-A147-BED80B49E9C7}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{D8817C52-A3A8-4397-89A3-DB695C412DC0}NumberOfSyncRegistersForReadInProject=Auto;resource=/Output Virtual Point;0;ReadMethodType=bool{D98A1D20-D026-4CD4-82AD-122485D28A36}NumberOfSyncRegistersForReadInProject=Auto;resource=/Input Virtual Point;0;ReadMethodType=bool{EA00247D-0D3E-45C3-A5E2-00F5B75A437F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{F6A66033-FC8B-46C8-8130-6F1C32E58025}resource=/Scan Clock;0;ReadMethodType=boolNI 9144/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSNI_9144FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16EtherCAT StateNumberOfSyncRegistersForReadInProject=Auto;resource=/EtherCAT State;0;ReadMethodType=u8EUDVBool/name=EUDVBool/datatype=0/direction=1/index=0EUDVInt32/name=EUDVInt32/datatype=2/direction=0/index=0FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolInput Virtual PointNumberOfSyncRegistersForReadInProject=Auto;resource=/Input Virtual Point;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]NI 9144/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSNI_9144FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGAOutput Virtual PointNumberOfSyncRegistersForReadInProject=Auto;resource=/Output Virtual Point;0;ReadMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=bool</Property>
+					<Property Name="Item Name" Type="Str">FPGA Target 2</Property>
+					<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">0</Property>
+					<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml"><CLIPDeclarationSet name="CLIPDeclarationSet">
+
+</CLIPDeclarationSet></Property>
 					<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">NI 9144/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSNI_9144FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 					<Property Name="Resource Name" Type="Str"></Property>
@@ -907,7 +917,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="AI1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -922,7 +932,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="AI2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -937,7 +947,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="AI3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -952,7 +962,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="AI4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -967,7 +977,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="AI5" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -982,7 +992,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="AI6" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -997,7 +1007,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="AI7" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -1012,7 +1022,7 @@
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"1!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 				</Item>
 			</Item>
@@ -1095,7 +1105,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">'1!!!"5!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"1!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-Following Error Actual Value" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1113,7 +1123,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">'1!!!"5!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"1!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-Latch 1P" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1131,7 +1141,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">'1!!!"5!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"1!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-Latch Status" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1149,7 +1159,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"5!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"1!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-Position Actual Internal Value" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1167,7 +1177,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">'1!!!"5!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"1!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-Second Position Feedback" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1185,7 +1195,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">'1!!!"5!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"1!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-Status word" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1203,7 +1213,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"5!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"1!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-Torque Actual Value" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1221,7 +1231,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"5!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"1!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-Velocity Actual Value" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1239,7 +1249,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">'1!!!"5!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"1!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Outputs-ClearDigInputChangedBit" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">10</Property>
@@ -1257,7 +1267,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"5!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"1!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Outputs-Control word" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">10</Property>
@@ -1275,7 +1285,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"5!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"1!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Outputs-Digital Outputs" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">10</Property>
@@ -1293,7 +1303,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">'1!!!"5!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"1!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Outputs-Interpolation Data Record" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">10</Property>
@@ -1311,7 +1321,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">'1!!!"5!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">'1!!!"1!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Outputs-Latch Control Word" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">10</Property>
@@ -1329,7 +1339,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"5!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"1!A!!!!!!"!!5!"A!!!1!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Outputs-Torque Feed Forward" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">10</Property>
@@ -1347,7 +1357,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"5!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"1!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Inputs-AIN.VALUE" Type="Variable">
 					<Property Name="_pdoIndex" Type="UInt">2</Property>
@@ -1365,7 +1375,7 @@
 					<Property Name="Network:UseBuffering" Type="Str">True</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"5!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">&amp;Q!!!"1!A!!!!!!"!!5!!A!!!1!!!!!!!!!!</Property>
 				</Item>
 			</Item>
 		</Item>

@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -28,39 +28,39 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Unit Test Framework tests" Type="Folder">
-			<Item Name="Add Remove Test.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/Add Remove Test.lvtest">
+			<Item Name="Add Remove Test.lvtest" Type="TestItem" URL="../testing/Add Remove Test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:Add Remove Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">83E70C45-521B-9D24-D27D-D7B49A72B24B</Property>
 			</Item>
-			<Item Name="get channels test.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/get channels test.lvtest">
+			<Item Name="get channels test.lvtest" Type="TestItem" URL="../testing/get channels test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:get channels test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">9E744A42-4054-F69A-8B11-8C44CA150C6C</Property>
 			</Item>
-			<Item Name="init runtime test.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/init runtime test.lvtest">
+			<Item Name="init runtime test.lvtest" Type="TestItem" URL="../testing/init runtime test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:init runtime test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">76EC6CB8-9A5D-FD6F-9914-9D86F8F80C0D</Property>
 			</Item>
-			<Item Name="modify channel test.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/modify channel test.lvtest">
+			<Item Name="modify channel test.lvtest" Type="TestItem" URL="../testing/modify channel test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:modify channel test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">33905E79-206F-21C4-6278-8E6270912562</Property>
 			</Item>
-			<Item Name="serialization tests.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/serialization tests.lvtest">
+			<Item Name="serialization tests.lvtest" Type="TestItem" URL="../testing/serialization tests.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:serialization tests.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">E3A0EFD5-5D9C-DEE7-388E-DC66C9B6EF57</Property>
 			</Item>
-			<Item Name="Test Find All Variables.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/Test Find All Variables.lvtest">
+			<Item Name="Test Find All Variables.lvtest" Type="TestItem" URL="../testing/Test Find All Variables.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:Test Find All Variables.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">7AADF982-0459-8D7D-D24A-20BB630DD168</Property>
 			</Item>
-			<Item Name="To and From CSV.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/To and From CSV.lvtest">
+			<Item Name="To and From CSV.lvtest" Type="TestItem" URL="../testing/To and From CSV.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:To and From CSV.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">D02AEDA4-7B63-CD75-A195-7E57CB87704C</Property>
 			</Item>
-			<Item Name="To and From String Array.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/To and From String Array.lvtest">
+			<Item Name="To and From String Array.lvtest" Type="TestItem" URL="../testing/To and From String Array.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:To and From String Array.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">9C2299DB-2940-375A-232E-E3A5178A41A4</Property>
 			</Item>
-			<Item Name="ToTable Test.lvtest" Type="TestItem" URL="../../../Documents/GitHub/Scan-Engine-Module/source/testing/ToTable Test.lvtest">
+			<Item Name="ToTable Test.lvtest" Type="TestItem" URL="../testing/ToTable Test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:ToTable Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">760EF05D-FBD5-3A39-4BC8-5DD5F1E884E3</Property>
 			</Item>

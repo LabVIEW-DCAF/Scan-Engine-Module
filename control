@@ -1,9 +1,9 @@
-Package: ScanEngine
+Package: scanengine
 Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description: Testing the scan engine. 
+Description: Testing the scan engine.
 XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com

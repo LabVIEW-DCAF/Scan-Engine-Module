@@ -1,11 +1,9 @@
 #!/usr/bin/env groovy
 //Leave the above line alone.  It identifies this as a groovy script.
+@Library('vs-build-tools') _
 
-//Modify the below parameters to match the values for this particular repo
+def lvVersions = ['2015']
+def nodeLabel = 'dcaf'
 
-def utfPaths = ["source\\Scan Engine.lvproj"]
-def vipbPaths = ["source\\TBM Scan Engine.vipb"]
-def lvVersion = "15.0"
-
-//Leave the below line alone.  It pulls in the pipeline definition from the DCAF buildsystem repo so we don't duplicate code in every repo 
-dcafPipeline(utfPaths,vipbPaths,lvVersion)
+ni.vsbuild.PipelineExecutor.execute(this, nodeLabel, lvVersions)
+diffPipeline('2015')

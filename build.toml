@@ -3,14 +3,7 @@ build_output_dir = 'Built'
 archive_location = 'C:\\Users\\labview\\Desktop\\CI\\archive'
 
 [projects.cd]
-path = 'Source\SampleProject.lvproj'
-
-[[build.steps]]
-name = 'SampleBuildSpec'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'My Computer'
-build_spec = 'SampleBuildSpec'
+path = 'Source\Scan Engine.lvproj'
 
 [package]
 type = 'nipkg'

@@ -8,4 +8,4 @@ path = 'Source\Scan Engine.lvproj'
 [package]
 type = 'nipkg'
 payload_dir = 'source'
-install_destination = 'documents\DCAF\SCANEngine'
+install_destination = 'ni-paths-LV2015DIR\vi.lib\NI\DCAF\Modules'

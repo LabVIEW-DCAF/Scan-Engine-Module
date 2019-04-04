@@ -8,20 +8,20 @@
 
 </Property>
 	<Item Name="manual" Type="Folder">
-		<Item Name="example test.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/example test.vi"/>
+		<Item Name="example test.vi" Type="VI" URL="../example test.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
-		<Item Name="Create Test Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/Create Test Configuration.vi"/>
+		<Item Name="Create Test Configuration.vi" Type="VI" URL="../Create Test Configuration.vi"/>
 	</Item>
-	<Item Name="Add Remove Test.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/Add Remove Test.vi"/>
-	<Item Name="config crosslink test.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/config crosslink test.vi"/>
-	<Item Name="get channels test.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/get channels test.vi"/>
-	<Item Name="init runtime test.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/init runtime test.vi"/>
-	<Item Name="modify channel test.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/modify channel test.vi"/>
-	<Item Name="runtime to editor crosslink test.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/runtime to editor crosslink test.vi"/>
-	<Item Name="serialization tests.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/serialization tests.vi"/>
-	<Item Name="Test Find All Variables.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/Test Find All Variables.vi"/>
-	<Item Name="To and From CSV.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/To and From CSV.vi"/>
-	<Item Name="To and From String Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/To and From String Array.vi"/>
-	<Item Name="ToTable Test.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/testing/ToTable Test.vi"/>
+	<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
+	<Item Name="config crosslink test.vi" Type="VI" URL="../config crosslink test.vi"/>
+	<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
+	<Item Name="init runtime test.vi" Type="VI" URL="../init runtime test.vi"/>
+	<Item Name="modify channel test.vi" Type="VI" URL="../modify channel test.vi"/>
+	<Item Name="runtime to editor crosslink test.vi" Type="VI" URL="../runtime to editor crosslink test.vi"/>
+	<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
+	<Item Name="Test Find All Variables.vi" Type="VI" URL="../Test Find All Variables.vi"/>
+	<Item Name="To and From CSV.vi" Type="VI" URL="../To and From CSV.vi"/>
+	<Item Name="To and From String Array.vi" Type="VI" URL="../To and From String Array.vi"/>
+	<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
 </Library>

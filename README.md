@@ -1,12 +1,14 @@
 # Overview
 
-The Scan engine module makes interfacing with Shared Variables and the Scan Engine easy. It should be the default choice for interacting with C Series modules in DCAF.
+The Scan engine module makes interfacing with Shared Variables and the Scan Engine easy. It should be the default choice for interacting with C Series modules and network published shared variables in DCAF.
 
 # Description
 
 The Scan Engine is the preferred method for communicating with C Series modules in a CompactRIO for DCAF. However, Scan Engine cannot meet the needs of all applications for all kinds of I/O. See the section on Scan Engine in the [cRIO Developer's Guide](http://www.ni.com/pdf/products/us/fullcriodevguide.pdf) for more information on its limitations.
 
 The Scan Engine Module can also be used to connect to data published with Shared Variables. To learn more about Shared Variables, see the following [LabVIEW help document](http://zone.ni.com/reference/en-XX/help/371361G-01/lvconcepts/usingdynvarapi/).
+
+You can have more than one instance of the Scan Engine module running in the same target. One good approach is using one instance of the module to read and write local IO channels, while using another instance to read remote PSP variables. This type of setup helps reducing the jitter for the local IO operations.
 
 # Configuration of the Scan Engine Module
 
@@ -19,6 +21,8 @@ The Scan Engine module works best if you configured your project to set up your 
 **Generate Tags**: Automatically creates tags and map tags to existing channels. If you remove a module from your project, the *Import from Project* button will not automatically remove the channels created earlier. You must manually remove those channels.
 
 **Scan Period**: Lets user configure the execution period of Scan Engine. To Synchronize the DCAF engine with this period, select the *Synchronize to Scan Engine* or *Use Module Timing Source* options in the engine configuration.
+
+**Configure Scan Engine?**: Enables the initialization of this instance of the module to configure the period of the Scan Engine and discover all the IO channels. If this checkbox is disabled, the **Scan Period** and **Discover Channels** settings are ignored. **Considering this, it is recommended to only enable this setting for one instance of the Scan Engine module per target, typically for the one that accesses the local IO variables**. 
 
 **Discover Channels**: Selecting this checkbox will automatically create I/O channels for additional C-Series  I/O that is discovered at run time. This is useful for some modules such as the TDMS module that can automatically log tags that it discovers.
 

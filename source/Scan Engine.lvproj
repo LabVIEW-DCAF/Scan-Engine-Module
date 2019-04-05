@@ -30,39 +30,47 @@
 		<Item Name="Unit Test Framework tests" Type="Folder">
 			<Item Name="Add Remove Test.lvtest" Type="TestItem" URL="../testing/Add Remove Test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:Add Remove Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">83E70C45-521B-9D24-D27D-D7B49A72B24B</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">02B63138-C8C9-58D4-FC72-A9B624A8C5D0</Property>
+			</Item>
+			<Item Name="config crosslink test.lvtest" Type="TestItem" URL="../testing/config crosslink test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:config crosslink test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">83ED0435-E72F-F6F8-C68E-C202A9AE9389</Property>
 			</Item>
 			<Item Name="get channels test.lvtest" Type="TestItem" URL="../testing/get channels test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:get channels test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">9E744A42-4054-F69A-8B11-8C44CA150C6C</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">9DCE88EC-395B-6BDA-A6FA-508764AB121F</Property>
 			</Item>
 			<Item Name="init runtime test.lvtest" Type="TestItem" URL="../testing/init runtime test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:init runtime test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">76EC6CB8-9A5D-FD6F-9914-9D86F8F80C0D</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">C85B7D9B-4BFE-E4FA-147A-E5AF30B4A5B6</Property>
 			</Item>
 			<Item Name="modify channel test.lvtest" Type="TestItem" URL="../testing/modify channel test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:modify channel test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">33905E79-206F-21C4-6278-8E6270912562</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">4E057CF2-10D4-6CD3-43B4-79557D8C449B</Property>
+			</Item>
+			<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../testing/runtime to editor crosslink test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:runtime to editor crosslink test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">0AE7FE90-95AE-6267-BAC9-88D230E652CD</Property>
 			</Item>
 			<Item Name="serialization tests.lvtest" Type="TestItem" URL="../testing/serialization tests.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:serialization tests.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">E3A0EFD5-5D9C-DEE7-388E-DC66C9B6EF57</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">01F1CBA9-B595-DC5A-1953-343766D633D3</Property>
 			</Item>
 			<Item Name="Test Find All Variables.lvtest" Type="TestItem" URL="../testing/Test Find All Variables.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:Test Find All Variables.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">7AADF982-0459-8D7D-D24A-20BB630DD168</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">79070C08-A736-D49D-6D4C-A086D5FA3015</Property>
 			</Item>
 			<Item Name="To and From CSV.lvtest" Type="TestItem" URL="../testing/To and From CSV.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:To and From CSV.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">D02AEDA4-7B63-CD75-A195-7E57CB87704C</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">6C6B5BB2-D9C7-B1C9-70DB-1EBCFEB9B341</Property>
 			</Item>
 			<Item Name="To and From String Array.lvtest" Type="TestItem" URL="../testing/To and From String Array.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:To and From String Array.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">9C2299DB-2940-375A-232E-E3A5178A41A4</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">B27A8C5C-5D2A-7203-2F99-0C46EB938D47</Property>
 			</Item>
 			<Item Name="ToTable Test.lvtest" Type="TestItem" URL="../testing/ToTable Test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:ToTable Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">760EF05D-FBD5-3A39-4BC8-5DD5F1E884E3</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">FA500C0D-0658-EC5E-75CD-B02E43F45435</Property>
 			</Item>
 		</Item>
 		<Item Name="Scan Engine configuration.lvclass" Type="LVClass" URL="../configuration/Scan Engine configuration.lvclass"/>
@@ -73,6 +81,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -194,7 +203,6 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="write syslog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Syslog Wrapper - Linux/write syslog.vi"/>
 			</Item>
-			<Item Name="IO_index_map.ctl" Type="VI" URL="../execution/Custom Ctrls/IO_index_map.ctl"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

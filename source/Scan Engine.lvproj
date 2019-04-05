@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -47,6 +47,10 @@
 			<Item Name="modify channel test.lvtest" Type="TestItem" URL="../testing/modify channel test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:modify channel test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">4E057CF2-10D4-6CD3-43B4-79557D8C449B</Property>
+			</Item>
+			<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../testing/runtime to editor crosslink test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:runtime to editor crosslink test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">7A932EE3-85A8-D85F-02DD-83DE083A0B2A</Property>
 			</Item>
 			<Item Name="serialization tests.lvtest" Type="TestItem" URL="../testing/serialization tests.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:serialization tests.vi</Property>

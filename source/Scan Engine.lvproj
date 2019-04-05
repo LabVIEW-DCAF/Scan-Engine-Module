@@ -48,6 +48,10 @@
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:modify channel test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">4E057CF2-10D4-6CD3-43B4-79557D8C449B</Property>
 			</Item>
+			<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../testing/runtime to editor crosslink test.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:runtime to editor crosslink test.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">0AE7FE90-95AE-6267-BAC9-88D230E652CD</Property>
+			</Item>
 			<Item Name="serialization tests.lvtest" Type="TestItem" URL="../testing/serialization tests.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Scan Engine tests.lvlib:serialization tests.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">01F1CBA9-B595-DC5A-1953-343766D633D3</Property>
